@@ -1,0 +1,87 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\bsc-c\\Project\\hello\\hello.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\bsc-c\\Project\\hello\\hello.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bsc-c\\Project\\hello\\hello.csproj",
+        "projectName": "hello",
+        "projectPath": "C:\\Users\\bsc-c\\Project\\hello\\hello.csproj",
+        "packagesPath": "C:\\Users\\bsc-c\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bsc-c\\Project\\hello\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\bsc-c\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "OPenTK": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            },
+            "OPenTK.graphics": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            },
+            "OPenTK.mathematics": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            },
+            "OPenTK.windowing.common": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            },
+            "OPenTK.windowing.desktop": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            },
+            "OPenTK.windowing.graphicslibraryframework": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

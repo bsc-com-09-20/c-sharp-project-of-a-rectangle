@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OPenTK" Version="4.8.2" />
+     <PackageReference Include="OPenTK.graphics" Version="4.8.2" />
+      <PackageReference Include="OPenTK.mathematics" Version="4.8.2" />
+       <PackageReference Include="OPenTK.windowing.common" Version="4.8.2" />
+        <PackageReference Include="OPenTK.windowing.desktop" Version="4.8.2" />
+         <PackageReference Include="OPenTK.windowing.graphicslibraryframework" Version="4.8.2" />
+  </ItemGroup>
+
+</Project>
